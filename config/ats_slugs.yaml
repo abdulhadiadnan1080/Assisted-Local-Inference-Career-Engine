@@ -1,0 +1,5 @@
+# Operator-curated ATS slugs only. Workday is not a fetch target.
+# Leave lists empty until you add boards you actually want pulled.
+greenhouse: []
+lever: []
+ashby: []

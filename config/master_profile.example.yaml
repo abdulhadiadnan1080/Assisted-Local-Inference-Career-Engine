@@ -1,0 +1,26 @@
+candidate:
+  full_name: "Jordan Hale"
+  headline: "Software engineer for tiny remote teams"
+  email: "jordan@example.test"
+  location: "Remote"
+  links: []
+
+summary_foundation:
+  years_of_experience: 6
+  summary: "I ship production Python services for small distributed teams, with a bias toward local inference and boring, inspectable stacks."
+
+skills:
+  languages: ["Python", "TypeScript", "SQL"]
+  frameworks: ["FastAPI", "Pydantic", "SQLite"]
+  infrastructure: ["MLX", "Ollama", "Typst"]
+
+experience:
+  - company: "Independent"
+    role: "Software engineer"
+    location: "Remote"
+    dates: "2021 — present"
+    bullets:
+      - text: "Built a local FastAPI control plane over SQLite for a 6-person product team."
+        ground_metrics: "6-person team, FastAPI, SQLite"
+      - text: "Ran Hermes and Gemma locally on Apple Silicon without a cloud LLM fallback."
+        ground_metrics: "Hermes, Gemma, Apple Silicon"

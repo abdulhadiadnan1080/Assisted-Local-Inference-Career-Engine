@@ -1,0 +1,802 @@
+[
+  {
+    "id": "s1",
+    "gate_a": "snippet_archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Eng",
+      "company": "Google",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/s1",
+      "extra": {},
+      "source_url": "https://fix.test/s1",
+      "snippet": "Remote worldwide $50/hr",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "s2",
+    "gate_a": "snippet_archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Eng",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/s2",
+      "extra": {},
+      "source_url": "https://fix.test/s2",
+      "snippet": "United States only, W2 only",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "s3",
+    "gate_a": "snippet_archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Eng",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/s3",
+      "extra": {},
+      "source_url": "https://fix.test/s3",
+      "snippet": "Onsite only in NYC",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "s4",
+    "gate_a": "snippet_archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Eng",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/s4",
+      "extra": {},
+      "source_url": "https://fix.test/s4",
+      "snippet": "No remote, must live in Austin",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "s5",
+    "gate_a": "snippet_archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Eng",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/s5",
+      "extra": {},
+      "source_url": "https://fix.test/s5",
+      "snippet": "Unpaid internship worldwide",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "s6",
+    "gate_a": "snippet_archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Eng",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/s6",
+      "extra": {},
+      "source_url": "https://fix.test/s6",
+      "snippet": "Equity only, no salary",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "s7",
+    "gate_a": "snippet_archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Eng",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/s7",
+      "extra": {},
+      "source_url": "https://fix.test/s7",
+      "snippet": "Fortune 500 enterprise role",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "s8",
+    "gate_a": "snippet_archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Eng",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/s8",
+      "extra": {},
+      "source_url": "https://fix.test/s8",
+      "snippet": "Security clearance required",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "s9",
+    "gate_a": "snippet_archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Eng",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/s9",
+      "extra": {},
+      "source_url": "https://fix.test/s9",
+      "snippet": "Worldwide remote $25/hr",
+      "pay_text": "$25/hr"
+    }
+  },
+  {
+    "id": "s10",
+    "gate_a": "snippet_archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Eng",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/s10",
+      "extra": {},
+      "source_url": "https://fix.test/s10",
+      "snippet": "200+ employees, huge org",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "a1",
+    "gate_a": "archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/a1",
+      "extra": {},
+      "source_url": "https://fix.test/a1",
+      "snippet": "Remote python role, distributed team.",
+      "description": "We are 80 people worldwide. $50/hr. Python FastAPI.",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "a2",
+    "gate_a": "archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/a2",
+      "extra": {},
+      "source_url": "https://fix.test/a2",
+      "snippet": "Remote python role, distributed team.",
+      "description": "Enterprise multinational, 500 employees, worldwide $50/hr. Python FastAPI.",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "a3",
+    "gate_a": "archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/a3",
+      "extra": {},
+      "source_url": "https://fix.test/a3",
+      "snippet": "Remote python role, distributed team.",
+      "description": "Fortune 500 partner team of 40 people. Worldwide $50/hr. Python FastAPI.",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "a4",
+    "gate_a": "archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/a4",
+      "extra": {},
+      "source_url": "https://fix.test/a4",
+      "snippet": "Remote python role, distributed team.",
+      "description": "Must live in the US though listed remote. 8 people. $50/hr. Python FastAPI.",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "a5",
+    "gate_a": "archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/a5",
+      "extra": {},
+      "source_url": "https://fix.test/a5",
+      "snippet": "Remote python role, distributed team.",
+      "description": "US only citizenship. 8 people. $50/hr worldwide wording elsewhere. Python FastAPI.",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "a6",
+    "gate_a": "archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/a6",
+      "extra": {},
+      "source_url": "https://fix.test/a6",
+      "snippet": "Remote python role, distributed team.",
+      "description": "Onsite only headquarters. 8 people. $50/hr. Python FastAPI.",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "a7",
+    "gate_a": "archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/a7",
+      "extra": {},
+      "source_url": "https://fix.test/a7",
+      "snippet": "Remote python role, distributed team.",
+      "description": "8 people worldwide unpaid internship. Python FastAPI.",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "a8",
+    "gate_a": "archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/a8",
+      "extra": {},
+      "source_url": "https://fix.test/a8",
+      "snippet": "Remote python role, distributed team.",
+      "description": "8 people worldwide equity only. Python FastAPI.",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "a9",
+    "gate_a": "archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/a9",
+      "extra": {},
+      "source_url": "https://fix.test/a9",
+      "snippet": "Remote python role, distributed team.",
+      "description": "8 people worldwide $25/hr. Python FastAPI.",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "a10",
+    "gate_a": "archive",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/a10",
+      "extra": {},
+      "source_url": "https://fix.test/a10",
+      "snippet": "Remote python role, distributed team.",
+      "description": "8 people worldwide $15/hr contract. Python FastAPI.",
+      "pay_text": ""
+    }
+  },
+  {
+    "id": "r1",
+    "gate_a": "review",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/r1",
+      "extra": {},
+      "source_url": "https://fix.test/r1",
+      "snippet": "Remote python, distributed team, work from anywhere.",
+      "description": "Remote python FastAPI role on a distributed team. Work from anywhere. Visa welcome. No headcount or pay stated."
+    }
+  },
+  {
+    "id": "r2",
+    "gate_a": "review",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/r2",
+      "extra": {},
+      "source_url": "https://fix.test/r2",
+      "snippet": "Remote python, distributed team, work from anywhere.",
+      "description": "Remote python FastAPI role on a distributed team. Work from anywhere. Visa welcome. No headcount or pay stated."
+    }
+  },
+  {
+    "id": "r3",
+    "gate_a": "review",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/r3",
+      "extra": {},
+      "source_url": "https://fix.test/r3",
+      "snippet": "Remote python, distributed team, work from anywhere.",
+      "description": "Remote python FastAPI role on a distributed team. Work from anywhere. Visa welcome. No headcount or pay stated."
+    }
+  },
+  {
+    "id": "r4",
+    "gate_a": "review",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/r4",
+      "extra": {},
+      "source_url": "https://fix.test/r4",
+      "snippet": "Remote python, distributed team, work from anywhere.",
+      "description": "Remote python FastAPI role on a distributed team. Work from anywhere. Visa welcome. No headcount or pay stated."
+    }
+  },
+  {
+    "id": "r5",
+    "gate_a": "review",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/r5",
+      "extra": {},
+      "source_url": "https://fix.test/r5",
+      "snippet": "Remote python, distributed team, work from anywhere.",
+      "description": "Remote python FastAPI role on a distributed team. Work from anywhere. Visa welcome. No headcount or pay stated."
+    }
+  },
+  {
+    "id": "r6",
+    "gate_a": "review",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/r6",
+      "extra": {},
+      "source_url": "https://fix.test/r6",
+      "snippet": "Remote python, distributed team, work from anywhere.",
+      "description": "Remote python FastAPI role on a distributed team. Work from anywhere. Visa welcome. No headcount or pay stated."
+    }
+  },
+  {
+    "id": "r7",
+    "gate_a": "review",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/r7",
+      "extra": {},
+      "source_url": "https://fix.test/r7",
+      "snippet": "Remote python, distributed team, work from anywhere.",
+      "description": "Remote python FastAPI role on a distributed team. Work from anywhere. Visa welcome. No headcount or pay stated."
+    }
+  },
+  {
+    "id": "r8",
+    "gate_a": "review",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/r8",
+      "extra": {},
+      "source_url": "https://fix.test/r8",
+      "snippet": "Remote python, distributed team, work from anywhere.",
+      "description": "Remote python FastAPI role on a distributed team. Work from anywhere. Visa welcome. No headcount or pay stated."
+    }
+  },
+  {
+    "id": "r9",
+    "gate_a": "review",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/r9",
+      "extra": {},
+      "source_url": "https://fix.test/r9",
+      "snippet": "Remote python, distributed team, work from anywhere.",
+      "description": "Remote python FastAPI role on a distributed team. Work from anywhere. Visa welcome. No headcount or pay stated."
+    }
+  },
+  {
+    "id": "r10",
+    "gate_a": "review",
+    "listing": {
+      "source": "fixture",
+      "title": "Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/r10",
+      "extra": {},
+      "source_url": "https://fix.test/r10",
+      "snippet": "Remote python, distributed team, work from anywhere.",
+      "description": "Remote python FastAPI role on a distributed team. Work from anywhere. Visa welcome. No headcount or pay stated."
+    }
+  },
+  {
+    "id": "p1",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p1",
+      "extra": {},
+      "source_url": "https://fix.test/p1",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p2",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p2",
+      "extra": {},
+      "source_url": "https://fix.test/p2",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p3",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p3",
+      "extra": {},
+      "source_url": "https://fix.test/p3",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p4",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p4",
+      "extra": {},
+      "source_url": "https://fix.test/p4",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p5",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p5",
+      "extra": {},
+      "source_url": "https://fix.test/p5",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p6",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p6",
+      "extra": {},
+      "source_url": "https://fix.test/p6",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p7",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p7",
+      "extra": {},
+      "source_url": "https://fix.test/p7",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p8",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p8",
+      "extra": {},
+      "source_url": "https://fix.test/p8",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p9",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p9",
+      "extra": {},
+      "source_url": "https://fix.test/p9",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p10",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p10",
+      "extra": {},
+      "source_url": "https://fix.test/p10",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p11",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p11",
+      "extra": {},
+      "source_url": "https://fix.test/p11",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p12",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p12",
+      "extra": {},
+      "source_url": "https://fix.test/p12",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p13",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p13",
+      "extra": {},
+      "source_url": "https://fix.test/p13",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p14",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p14",
+      "extra": {},
+      "source_url": "https://fix.test/p14",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p15",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p15",
+      "extra": {},
+      "source_url": "https://fix.test/p15",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p16",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p16",
+      "extra": {},
+      "source_url": "https://fix.test/p16",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p17",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p17",
+      "extra": {},
+      "source_url": "https://fix.test/p17",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p18",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p18",
+      "extra": {},
+      "source_url": "https://fix.test/p18",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p19",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p19",
+      "extra": {},
+      "source_url": "https://fix.test/p19",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  },
+  {
+    "id": "p20",
+    "gate_a": "pass",
+    "gate_b": "PROCEED",
+    "listing": {
+      "source": "fixture",
+      "title": "Senior Python engineer",
+      "company": "Seedling",
+      "location": "Worldwide",
+      "apply_url": "https://fix.test/p20",
+      "extra": {},
+      "source_url": "https://fix.test/p20",
+      "snippet": "Tiny remote team, worldwide, python.",
+      "description": "We are 8 people, fully remote, worldwide. Pay is $50/hr USD. Visa-friendly. Seed small team. Python, FastAPI, MLX, inference.",
+      "pay_text": "$50/hr"
+    }
+  }
+]

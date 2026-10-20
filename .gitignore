@@ -1,0 +1,13 @@
+config/master_profile.yaml
+.env
+token.json
+credentials.json
+data/*.db
+data/cache/
+artifacts/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store

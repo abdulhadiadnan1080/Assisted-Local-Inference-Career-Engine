@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+jinja2
+httpx
+feedparser
+pydantic
+pyyaml
+instructor
+openai
+google-api-python-client
+google-auth-oauthlib
+python-jobspy
+pytest
