@@ -5,12 +5,12 @@
 #   ./install.sh --no-models   skip the ~10 GB model download (pipeline falls back to heuristics)
 #
 # Or straight from GitHub, which clones first:
-#   curl -fsSL https://raw.githubusercontent.com/abdulhadiadnan1080/Autonomous-Local-Career-Engine-ALCE-/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/abdulhadiadnan1080/Assisted-Local-Inference-Career-Engine/main/install.sh | bash
 #
 # Anything this script downloads itself goes in ./.tools, so deleting the folder undoes it.
 set -euo pipefail
 
-REPO_URL="https://github.com/abdulhadiadnan1080/Autonomous-Local-Career-Engine-ALCE-.git"
+REPO_URL="https://github.com/abdulhadiadnan1080/Assisted-Local-Inference-Career-Engine.git"
 HERMES="${ALICE_HERMES_MODEL:-hermes3:8b}"
 GEMMA="${ALICE_GEMMA_MODEL:-gemma2:9b}"
 OLLAMA_URL="http://127.0.0.1:11434"
@@ -35,7 +35,7 @@ have() { command -v "$1" >/dev/null 2>&1; }
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" 2>/dev/null && pwd || pwd)"
 if [ ! -f "$HERE/app.py" ]; then
   have git || die "git is required to download ALICE"
-  TARGET="${ALICE_DIR:-$PWD/alce}"
+  TARGET="${ALICE_DIR:-$PWD/Assisted-Local-Inference-Career-Engine}"
   step "Cloning ALICE into $TARGET"
   [ -d "$TARGET/.git" ] || git clone --depth 1 "$REPO_URL" "$TARGET"
   exec bash "$TARGET/install.sh" "$@"

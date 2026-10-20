@@ -31,15 +31,16 @@ You stay in charge of the last step. **Apply** opens the official posting so you
 ## ⚡ Quick start
 
 ```bash
-git clone https://github.com/abdulhadiadnan1080/Autonomous-Local-Career-Engine-ALCE-.git alice
-cd alice && ./install.sh     # one command: downloads and builds everything
-./run.sh                     # one command: starts everything and opens the dashboard
+git clone https://github.com/abdulhadiadnan1080/Assisted-Local-Inference-Career-Engine.git
+cd Assisted-Local-Inference-Career-Engine
+./install.sh    # one command: downloads and builds everything
+./run.sh        # one command: starts everything and opens the dashboard
 ```
 
 Or, without cloning first:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/abdulhadiadnan1080/Autonomous-Local-Career-Engine-ALCE-/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/abdulhadiadnan1080/Assisted-Local-Inference-Career-Engine/main/install.sh | bash
 ```
 
 | Command | What it does |
@@ -195,7 +196,7 @@ Every request goes through one fetcher with the same safeguards: a random 1–2 
 ## 🗂 Project layout
 
 ```text
-alice/
+Assisted-Local-Inference-Career-Engine/
 ├── install.sh / run.sh        one-command install and run
 ├── app.py                     FastAPI: job actions, pipeline control, serves the React build
 ├── alice_core/
