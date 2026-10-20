@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" role="img" aria-label="ALICE end-to-end pipeline">
+<title>ALICE end-to-end pipeline: crawl, gates, scoring, tailoring, drafting, daily 15, human Apply/Send</title>
+<style>
+.serif{font-family:Fraunces,'Iowan Old Style',Georgia,serif}.sans{font-family:Inter,'Segoe UI',system-ui,-apple-system,sans-serif}.mono{font-family:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace}
+.rail{stroke-dasharray:4 6;animation:flow 1.2s linear infinite}@keyframes flow{to{stroke-dashoffset:-10}}
+.rail.back{animation-direction:normal}
+@keyframes h0 { 0%,100% { opacity: 0; } 0.01% { opacity: 0; } 1.00% { opacity: 1; } 6.00% { opacity: 0; } 38.50% { opacity: 0; } 41.00% { opacity: 1; } 46.00% { opacity: 0; } } .h0 { animation: h0 14.0s linear infinite; }
+@keyframes h1 { 0%,100% { opacity: 0; } 7.00% { opacity: 0; } 9.50% { opacity: 1; } 14.50% { opacity: 0; } 47.00% { opacity: 0; } 49.50% { opacity: 1; } 54.50% { opacity: 0; } } .h1 { animation: h1 14.0s linear infinite; }
+@keyframes h2 { 0%,100% { opacity: 0; } 15.50% { opacity: 0; } 18.00% { opacity: 1; } 23.00% { opacity: 0; } 55.50% { opacity: 0; } 58.00% { opacity: 1; } 63.00% { opacity: 0; } } .h2 { animation: h2 14.0s linear infinite; }
+@keyframes h3 { 0%,100% { opacity: 0; } 24.00% { opacity: 0; } 26.50% { opacity: 1; } 31.50% { opacity: 0; } 64.00% { opacity: 0; } 66.50% { opacity: 1; } 71.50% { opacity: 0; } } .h3 { animation: h3 14.0s linear infinite; }
+@keyframes h4 { 0%,100% { opacity: 0; } 32.50% { opacity: 0; } 35.00% { opacity: 1; } 40.00% { opacity: 0; } 72.50% { opacity: 0; } 75.00% { opacity: 1; } 80.00% { opacity: 0; } } .h4 { animation: h4 14.0s linear infinite; }
+@keyframes h5 { 0%,100% { opacity: 0; } 44.50% { opacity: 0; } 47.00% { opacity: 1; } 52.00% { opacity: 0; } 84.50% { opacity: 0; } 87.00% { opacity: 1; } 92.00% { opacity: 0; } } .h5 { animation: h5 14.0s linear infinite; }
+@keyframes h6 { 0%,100% { opacity: 0; } 53.00% { opacity: 0; } 55.50% { opacity: 1; } 60.50% { opacity: 0; } 93.00% { opacity: 0; } 95.50% { opacity: 1; } 99.90% { opacity: 0; } } .h6 { animation: h6 14.0s linear infinite; }
+@keyframes h7 { 0%,100% { opacity: 0; } 1.50% { opacity: 0; } 4.00% { opacity: 1; } 9.00% { opacity: 0; } 61.50% { opacity: 0; } 64.00% { opacity: 1; } 69.00% { opacity: 0; } } .h7 { animation: h7 14.0s linear infinite; }
+@keyframes h8 { 0%,100% { opacity: 0; } 10.00% { opacity: 0; } 12.50% { opacity: 1; } 17.50% { opacity: 0; } 70.00% { opacity: 0; } 72.50% { opacity: 1; } 77.50% { opacity: 0; } } .h8 { animation: h8 14.0s linear infinite; }
+@keyframes h9 { 0%,100% { opacity: 0; } 18.50% { opacity: 0; } 21.00% { opacity: 1; } 26.00% { opacity: 0; } 78.50% { opacity: 0; } 81.00% { opacity: 1; } 86.00% { opacity: 0; } } .h9 { animation: h9 14.0s linear infinite; }
+</style>
+<rect x="1" y="1" width="958" height="558" rx="20" fill="#f7f4ee" stroke="#e6dfd4"/>
+<text x="32" y="40" class="mono" font-size="12" letter-spacing="2" fill="#c0521f">END-TO-END PIPELINE · alice_core/pipeline.py</text>
+<text x="32" y="70" class="serif" font-size="25" fill="#191614">One listing’s path, from a job board to your click</text>
+<text x="928" y="40" class="mono" font-size="12" fill="#a89d90" text-anchor="end">loops every 14 s</text>
+<path d="M112 222 H932 Q944 222 944 234 V288 Q944 300 932 300 H112" fill="none" stroke="#a89d90" stroke-width="1.5" class="rail"/>
+<path d="M200 217 L206 222 L200 227" fill="none" stroke="#736a60" stroke-width="1.5"/>
+<path d="M208 295 L202 300 L208 305" fill="none" stroke="#736a60" stroke-width="1.5"/>
+<path d="M384 217 L390 222 L384 227" fill="none" stroke="#736a60" stroke-width="1.5"/>
+<path d="M392 295 L386 300 L392 305" fill="none" stroke="#736a60" stroke-width="1.5"/>
+<path d="M568 217 L574 222 L568 227" fill="none" stroke="#736a60" stroke-width="1.5"/>
+<path d="M576 295 L570 300 L576 305" fill="none" stroke="#736a60" stroke-width="1.5"/>
+<path d="M752 217 L758 222 L752 227" fill="none" stroke="#736a60" stroke-width="1.5"/>
+<path d="M760 295 L754 300 L760 305" fill="none" stroke="#736a60" stroke-width="1.5"/>
+<rect x="216" y="236" width="344" height="52" rx="12" fill="#fffdf9" stroke="#a89d90" stroke-dasharray="5 4"/>
+<text x="230" y="279" class="mono" font-size="12" fill="#a89d90">ARCHIVED · reason saved to SQLite</text>
+<rect x="584" y="236" width="160" height="52" rx="12" fill="#fffdf9" stroke="#b78a2b" stroke-dasharray="5 4"/>
+<text x="598" y="279" class="mono" font-size="12" fill="#b78a2b">NEEDS_REVIEW</text>
+<rect x="768" y="236" width="160" height="52" rx="12" fill="#fffdf9" stroke="#a89d90" stroke-dasharray="5 4"/>
+<text x="782" y="279" class="mono" font-size="12" fill="#a89d90">ARCHIVED · &lt; 3.5</text>
+<line x1="296" y1="230" x2="296" y2="236" stroke="#e6dfd4" stroke-width="1.5"/>
+<line x1="664" y1="230" x2="664" y2="236" stroke="#e6dfd4" stroke-width="1.5"/>
+<line x1="848" y1="230" x2="848" y2="236" stroke="#e6dfd4" stroke-width="1.5"/>
+<rect x="32" y="88" width="160" height="120" rx="14" fill="#ffffff" stroke="#e6dfd4" stroke-width="1"/>
+<rect class="h0" x="30" y="86" width="164" height="124" rx="16" fill="none" stroke="#b78a2b" stroke-width="2.5" opacity="0"/>
+<circle cx="50" cy="108" r="4" fill="#b78a2b"/>
+<text x="60" y="112" class="mono" font-size="12" fill="#b78a2b">01 · SOURCES</text>
+<text x="46" y="138" class="serif" font-size="18" fill="#191614">Crawl</text>
+<text x="46" y="160" class="sans" font-size="12.5" fill="#3b3530">8 boards + JobSpy</text>
+<text x="46" y="177" class="sans" font-size="12.5" fill="#736a60">LinkedIn + Indeed</text>
+<rect x="44" y="182" width="88" height="20" rx="10" fill="#f1ede6"/>
+<text x="52" y="196" class="mono" font-size="12" fill="#736a60">DISCOVERED</text>
+<line x1="112" y1="208" x2="112" y2="215" stroke="#e6dfd4" stroke-width="1.5"/>
+<rect x="216" y="88" width="160" height="120" rx="14" fill="#ffffff" stroke="#e6dfd4" stroke-width="1"/>
+<rect class="h1" x="214" y="86" width="164" height="124" rx="16" fill="none" stroke="#736a60" stroke-width="2.5" opacity="0"/>
+<circle cx="234" cy="108" r="4" fill="#736a60"/>
+<text x="244" y="112" class="mono" font-size="12" fill="#736a60">02 · NO LLM</text>
+<text x="230" y="138" class="serif" font-size="18" fill="#191614">Snippet gate</text>
+<text x="230" y="160" class="sans" font-size="12.5" fill="#3b3530">geo locks · FAANG</text>
+<text x="230" y="177" class="sans" font-size="12.5" fill="#736a60">pay band · blocklist</text>
+<rect x="228" y="182" width="132" height="20" rx="10" fill="#f1ede6"/>
+<text x="236" y="196" class="mono" font-size="12" fill="#736a60">SNIPPET_FILTERED</text>
+<line x1="296" y1="208" x2="296" y2="215" stroke="#e6dfd4" stroke-width="1.5"/>
+<rect x="400" y="88" width="160" height="120" rx="14" fill="#ffffff" stroke="#e6dfd4" stroke-width="1"/>
+<rect class="h2" x="398" y="86" width="164" height="124" rx="16" fill="none" stroke="#736a60" stroke-width="2.5" opacity="0"/>
+<circle cx="418" cy="108" r="4" fill="#736a60"/>
+<text x="428" y="112" class="mono" font-size="12" fill="#736a60">03 · HTTP</text>
+<text x="414" y="138" class="serif" font-size="18" fill="#191614">Fetch JD</text>
+<text x="414" y="160" class="sans" font-size="12.5" fill="#3b3530">cached on disk</text>
+<text x="414" y="177" class="sans" font-size="12.5" fill="#736a60">80 fetches / day</text>
+<rect x="412" y="182" width="88" height="20" rx="10" fill="#f1ede6"/>
+<text x="420" y="196" class="mono" font-size="12" fill="#736a60">JD_FETCHED</text>
+<line x1="480" y1="208" x2="480" y2="215" stroke="#e6dfd4" stroke-width="1.5"/>
+<rect x="584" y="88" width="160" height="120" rx="14" fill="#ffffff" stroke="#e6dfd4" stroke-width="1"/>
+<rect class="h3" x="582" y="86" width="164" height="124" rx="16" fill="none" stroke="#2f5d4a" stroke-width="2.5" opacity="0"/>
+<circle cx="602" cy="108" r="4" fill="#2f5d4a"/>
+<text x="612" y="112" class="mono" font-size="12" fill="#2f5d4a">04 · HERMES</text>
+<text x="598" y="138" class="serif" font-size="18" fill="#191614">Gate A · hard</text>
+<text x="598" y="160" class="sans" font-size="12.5" fill="#3b3530">&lt; 20 people · intl</text>
+<text x="598" y="177" class="sans" font-size="12.5" fill="#736a60">$40–60/hr in band</text>
+<line x1="664" y1="208" x2="664" y2="215" stroke="#e6dfd4" stroke-width="1.5"/>
+<rect x="768" y="88" width="160" height="120" rx="14" fill="#ffffff" stroke="#e6dfd4" stroke-width="1"/>
+<rect class="h4" x="766" y="86" width="164" height="124" rx="16" fill="none" stroke="#2f5d4a" stroke-width="2.5" opacity="0"/>
+<circle cx="786" cy="108" r="4" fill="#2f5d4a"/>
+<text x="796" y="112" class="mono" font-size="12" fill="#2f5d4a">05 · HERMES</text>
+<text x="782" y="138" class="serif" font-size="18" fill="#191614">Gate B · fit</text>
+<text x="782" y="160" class="sans" font-size="12.5" fill="#3b3530">5 dims, weighted</text>
+<text x="782" y="177" class="sans" font-size="12.5" fill="#736a60">composite ≥ 3.5</text>
+<line x1="848" y1="208" x2="848" y2="215" stroke="#e6dfd4" stroke-width="1.5"/>
+<rect x="768" y="312" width="160" height="120" rx="14" fill="#ffffff" stroke="#e6dfd4" stroke-width="1"/>
+<rect class="h5" x="766" y="310" width="164" height="124" rx="16" fill="none" stroke="#2f5d4a" stroke-width="2.5" opacity="0"/>
+<circle cx="786" cy="332" r="4" fill="#2f5d4a"/>
+<text x="796" y="336" class="mono" font-size="12" fill="#2f5d4a">06 · HERMES</text>
+<text x="782" y="362" class="serif" font-size="18" fill="#191614">Poster</text>
+<text x="782" y="384" class="sans" font-size="12.5" fill="#3b3530">literal emails only</text>
+<text x="782" y="401" class="sans" font-size="12.5" fill="#736a60">never guesses jobs@</text>
+<line x1="848" y1="307" x2="848" y2="312" stroke="#e6dfd4" stroke-width="1.5"/>
+<rect x="584" y="312" width="160" height="120" rx="14" fill="#ffffff" stroke="#e6dfd4" stroke-width="1"/>
+<rect class="h6" x="582" y="310" width="164" height="124" rx="16" fill="none" stroke="#c0521f" stroke-width="2.5" opacity="0"/>
+<circle cx="602" cy="332" r="4" fill="#c0521f"/>
+<text x="612" y="336" class="mono" font-size="12" fill="#c0521f">07 · GEMMA→HERMES</text>
+<text x="598" y="362" class="serif" font-size="18" fill="#191614">Tailor CV</text>
+<text x="598" y="384" class="sans" font-size="12.5" fill="#3b3530">Gemma rewrites</text>
+<text x="598" y="401" class="sans" font-size="12.5" fill="#736a60">Hermes audits → PDF</text>
+<line x1="664" y1="307" x2="664" y2="312" stroke="#e6dfd4" stroke-width="1.5"/>
+<rect x="400" y="312" width="160" height="120" rx="14" fill="#ffffff" stroke="#e6dfd4" stroke-width="1"/>
+<rect class="h7" x="398" y="310" width="164" height="124" rx="16" fill="none" stroke="#c0521f" stroke-width="2.5" opacity="0"/>
+<circle cx="418" cy="332" r="4" fill="#c0521f"/>
+<text x="428" y="336" class="mono" font-size="12" fill="#c0521f">08 · GEMMA→HERMES</text>
+<text x="414" y="362" class="serif" font-size="18" fill="#191614">Draft email</text>
+<text x="414" y="384" class="sans" font-size="12.5" fill="#3b3530">Gemma writes 5–8</text>
+<text x="414" y="401" class="sans" font-size="12.5" fill="#736a60">Hermes strips slop</text>
+<rect x="412" y="406" width="67" height="20" rx="10" fill="#f1ede6"/>
+<text x="420" y="420" class="mono" font-size="12" fill="#736a60">BACKLOG</text>
+<line x1="480" y1="307" x2="480" y2="312" stroke="#e6dfd4" stroke-width="1.5"/>
+<rect x="216" y="312" width="160" height="120" rx="14" fill="#ffffff" stroke="#e6dfd4" stroke-width="1"/>
+<rect class="h8" x="214" y="310" width="164" height="124" rx="16" fill="none" stroke="#b78a2b" stroke-width="2.5" opacity="0"/>
+<circle cx="234" cy="332" r="4" fill="#b78a2b"/>
+<text x="244" y="336" class="mono" font-size="12" fill="#b78a2b">09 · RANKER</text>
+<text x="230" y="362" class="serif" font-size="18" fill="#191614">Daily 15</text>
+<text x="230" y="384" class="sans" font-size="12.5" fill="#3b3530">rank: score, email</text>
+<text x="230" y="401" class="sans" font-size="12.5" fill="#736a60">≤ 2 per company</text>
+<rect x="228" y="406" width="52" height="20" rx="10" fill="#f1ede6"/>
+<text x="236" y="420" class="mono" font-size="12" fill="#736a60">READY</text>
+<line x1="296" y1="307" x2="296" y2="312" stroke="#e6dfd4" stroke-width="1.5"/>
+<rect x="32" y="312" width="160" height="120" rx="14" fill="#ffffff" stroke="#191614" stroke-width="1.5"/>
+<rect class="h9" x="30" y="310" width="164" height="124" rx="16" fill="none" stroke="#191614" stroke-width="2.5" opacity="0"/>
+<circle cx="50" cy="332" r="4" fill="#191614"/>
+<text x="60" y="336" class="mono" font-size="12" fill="#191614">10 · YOU</text>
+<text x="46" y="362" class="serif" font-size="18" fill="#191614">Apply / Send</text>
+<text x="46" y="384" class="sans" font-size="12.5" fill="#3b3530">Apply → posting</text>
+<text x="46" y="401" class="sans" font-size="12.5" fill="#736a60">Send → Gmail draft</text>
+<rect x="44" y="406" width="118" height="20" rx="10" fill="#efebe4"/>
+<text x="52" y="420" class="mono" font-size="12" fill="#191614">APPLIED / SENT</text>
+<line x1="112" y1="307" x2="112" y2="312" stroke="#e6dfd4" stroke-width="1.5"/>
+<circle r="6.5" fill="#b78a2b" stroke="#ffffff" stroke-width="2" opacity="0"><animateMotion path="M112 222 H932 Q944 222 944 234 V288 Q944 300 932 300 H112" dur="14.0s" begin="0.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.800;1"/><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.9;0.95;1" dur="14.0s" begin="0.0s" repeatCount="indefinite"/></circle>
+<circle r="6.5" fill="#b78a2b" stroke="#ffffff" stroke-width="2" opacity="0"><animateMotion path="M112 222 H296 V254" dur="14.0s" begin="1.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.100;1"/><animate attributeName="opacity" values="0;1;1;0.9;0;0" keyTimes="0;0.01;0.100;0.350;0.390;1" dur="14.0s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="fill" values="#b78a2b;#b78a2b;#a89d90;#a89d90" keyTimes="0;0.080;0.100;1" dur="14.0s" begin="1.4s" repeatCount="indefinite"/></circle>
+<circle r="6.5" fill="#b78a2b" stroke="#ffffff" stroke-width="2" opacity="0"><animateMotion path="M112 222 H664 V254" dur="14.0s" begin="2.8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.270;1"/><animate attributeName="opacity" values="0;1;1;0.9;0;0" keyTimes="0;0.01;0.270;0.520;0.560;1" dur="14.0s" begin="2.8s" repeatCount="indefinite"/><animate attributeName="fill" values="#b78a2b;#b78a2b;#b78a2b;#b78a2b" keyTimes="0;0.250;0.270;1" dur="14.0s" begin="2.8s" repeatCount="indefinite"/></circle>
+<circle r="6.5" fill="#b78a2b" stroke="#ffffff" stroke-width="2" opacity="0"><animateMotion path="M112 222 H848 V254" dur="14.0s" begin="4.2s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.355;1"/><animate attributeName="opacity" values="0;1;1;0.9;0;0" keyTimes="0;0.01;0.355;0.605;0.645;1" dur="14.0s" begin="4.2s" repeatCount="indefinite"/><animate attributeName="fill" values="#b78a2b;#b78a2b;#a89d90;#a89d90" keyTimes="0;0.335;0.355;1" dur="14.0s" begin="4.2s" repeatCount="indefinite"/></circle>
+<circle r="6.5" fill="#b78a2b" stroke="#ffffff" stroke-width="2" opacity="0"><animateMotion path="M112 222 H932 Q944 222 944 234 V288 Q944 300 932 300 H112" dur="14.0s" begin="5.6s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.800;1"/><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.9;0.95;1" dur="14.0s" begin="5.6s" repeatCount="indefinite"/></circle>
+<circle cx="38" cy="466" r="5" fill="#b78a2b"/>
+<text x="48" y="470" class="sans" font-size="12.5" fill="#3b3530">listing</text>
+<circle cx="128.3" cy="466" r="5" fill="#a89d90"/>
+<text x="138.3" y="470" class="sans" font-size="12.5" fill="#3b3530">dropped</text>
+<circle cx="218.60000000000002" cy="466" r="5" fill="#2f5d4a"/>
+<text x="228.60000000000002" y="470" class="sans" font-size="12.5" fill="#3b3530">Hermes 3 8B · judge</text>
+<circle cx="391.70000000000005" cy="466" r="5" fill="#c0521f"/>
+<text x="401.70000000000005" y="470" class="sans" font-size="12.5" fill="#3b3530">Gemma 2 9B · writer</text>
+<circle cx="564.8000000000001" cy="466" r="5" fill="#736a60"/>
+<text x="574.8000000000001" y="470" class="sans" font-size="12.5" fill="#3b3530">deterministic, no LLM</text>
+<circle cx="751.7" cy="466" r="5" fill="#191614"/>
+<text x="761.7" y="470" class="sans" font-size="12.5" fill="#3b3530">you</text>
+<text x="32" y="500" class="mono" font-size="12" fill="#3b3530">composite = skills 35% · experience 25% · location 15% · trajectory 15% · culture 10%   →   PROCEED if ≥ 3.5</text>
+<text x="32" y="524" class="sans" font-size="12.5" fill="#736a60">Every status change is a row in SQLite (data/alice.db). Weights, threshold and pay band live on the Setup page.</text>
+</svg>

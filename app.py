@@ -17,11 +17,9 @@ PORT = int(os.environ.get("ALICE_PORT", "8471"))
 if PORT == 8000:
     raise RuntimeError("ALICE never binds port 8000")
 
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
-from fastapi.staticfiles import StaticFiles
-from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 
 from alice_core import db
@@ -30,6 +28,7 @@ from alice_core.pipeline import pipeline_busy, promote, request_stop, run, seed_
 from alice_core.webapi import router as api_router
 
 FRONTEND_PORT = int(os.environ.get("ALICE_FRONTEND_PORT", "8472"))
+DIST = ROOT / "frontend" / "dist"
 
 app = FastAPI(title="ALICE", docs_url=None, redoc_url=None)
 app.add_middleware(
@@ -39,10 +38,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 app.include_router(api_router)
-templates = Jinja2Templates(directory=str(ROOT / "templates"))
-static = ROOT / "static"
-static.mkdir(exist_ok=True)
-app.mount("/static", StaticFiles(directory=str(static)), name="static")
 
 db.init_db()
 # Restarted process cannot inherit the previous worker; leftover flag stuck Automate on Running.
@@ -54,55 +49,9 @@ class DraftBody(BaseModel):
     body_text: str
 
 
-def _page(request: Request, view: str, where: str, params: tuple = ()):
-    cards = db.card_query(where, params)
-    stats = db.counts()
-    today = date.today().isoformat()
-    return templates.TemplateResponse(
-        "board.html",
-        {
-            "request": request,
-            "view": view,
-            "cards": cards,
-            "stats": stats,
-            "today": today,
-            "gmail": gmail_connected(),
-            "running": db.is_running(),
-            "listen": f"{HOST}:{PORT}",
-            "live_crawl": db.live_crawl_enabled(),
-        },
-    )
-
-
 @app.get("/health")
 def health():
     return {"ok": True}
-
-
-@app.get("/")
-def today_board(request: Request):
-    today = date.today().isoformat()
-    return _page(
-        request,
-        "today",
-        "j.shown_on = ? AND j.status IN ('READY','APPLIED','SENT','BOTH')",
-        (today,),
-    )
-
-
-@app.get("/review")
-def review_board(request: Request):
-    return _page(request, "review", "j.status = 'NEEDS_REVIEW'")
-
-
-@app.get("/backlog")
-def backlog_board(request: Request):
-    return _page(request, "backlog", "j.status = 'BACKLOG'")
-
-
-@app.get("/history")
-def history_board(request: Request):
-    return _page(request, "history", "j.status IN ('APPLIED','SENT','BOTH','SKIPPED')")
 
 
 @app.post("/api/pipeline/run")
@@ -209,6 +158,23 @@ def artifact(job_id: str):
     if not path.exists():
         raise HTTPException(404, "no pdf")
     return FileResponse(path, media_type="application/pdf")
+
+
+@app.get("/{path:path}")
+def frontend(path: str):
+    """Serve the built React app. Unknown paths fall back to index.html for client-side routes."""
+    if path.startswith("api/"):
+        raise HTTPException(404, "unknown endpoint")
+    target = (DIST / path).resolve()
+    if path and target.is_file() and DIST.resolve() in target.parents:
+        return FileResponse(target)
+    index = DIST / "index.html"
+    if not index.exists():
+        return JSONResponse(
+            {"ok": False, "reason": "frontend not built, run ./install.sh or: cd frontend && npm run build"},
+            status_code=503,
+        )
+    return FileResponse(index)
 
 
 if __name__ == "__main__":

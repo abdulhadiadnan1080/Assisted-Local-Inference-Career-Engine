@@ -16,5 +16,5 @@ def test_no_unattended_apply_in_pipeline():
     assert "httpx.post" not in src
     assert "workday" not in src.lower()
     app = (ROOT / "app.py").read_text()
-    assert "window.open" in (ROOT / "static" / "alice.js").read_text()
+    assert "window.open" in (ROOT / "frontend" / "src" / "pages" / "Briefing.tsx").read_text()
     assert "httpx.post" not in app

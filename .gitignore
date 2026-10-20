@@ -4,9 +4,11 @@ token.json
 credentials.json
 data/*.db
 data/cache/
+data/logs/
 artifacts/
 venv/
 .venv/
+.tools/
 __pycache__/
 *.pyc
 .pytest_cache/
